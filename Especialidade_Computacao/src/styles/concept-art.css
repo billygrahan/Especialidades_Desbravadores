@@ -24,14 +24,14 @@
   color: #6b21a8;
   display: grid;
   place-items: center;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 700;
 }
 .time-stop b {
-  font-size: 10px;
+  font-size: 11px;
 }
 .time-stop small {
-  font-size: 8px;
+  font-size: 9px;
   color: #8990a0;
 }
 .time-stop i {
@@ -59,13 +59,13 @@
   box-shadow: 0 5px 10px #22202a12;
 }
 .layer > span {
-  font-size: 17px;
+  font-size: 18px;
 }
 .layer b {
-  font-size: 11px;
+  font-size: 12px;
 }
 .layer small {
-  font-size: 9px;
+  font-size: 10px;
   opacity: 0.8;
 }
 .app-layer {
@@ -97,10 +97,10 @@
   color: #43495a;
 }
 .device span {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1;
   color: #6d3e94;
 }
 .device b {
-  font-size: 9px;
+  font-size: 10px;
 }

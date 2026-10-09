@@ -10,11 +10,11 @@
   align-items: center;
   gap: 17px;
   color: #674288;
-  font-size: 12px;
+  font-size: 13px;
   border-bottom: 1px solid #dfdbe6;
 }
 .editor-toolbar b {
-  font-size: 13px;
+  font-size: 14px;
 }
 .editor-toolbar span:nth-of-type(2) {
   margin-left: auto;
@@ -31,7 +31,7 @@
   gap: 6px;
 }
 .editor-page strong {
-  font-size: 9px;
+  font-size: 10px;
   color: #33394a;
 }
 .editor-page > i {
@@ -44,7 +44,7 @@
   width: 66%;
 }
 .editor-highlight {
-  font-size: 7px;
+  font-size: 8px;
   color: #684089;
   background: #f3eaf8;
   padding: 4px;
@@ -71,17 +71,17 @@
   gap: 2px;
 }
 .report-heading span {
-  font-size: 6px;
+  font-size: 7px;
   letter-spacing: 1px;
   color: #7849a0;
   font-weight: 700;
 }
 .report-heading b {
-  font-size: 8px;
+  font-size: 9px;
   color: #343b4b;
 }
 .report-heading small {
-  font-size: 6px;
+  font-size: 7px;
   color: #9397a2;
 }
 .report-photo {
@@ -90,7 +90,7 @@
   background: #eaf1e8;
   display: grid;
   place-items: center;
-  font-size: 22px;
+  font-size: 23px;
 }
 .report-lines {
   display: flex;
@@ -123,14 +123,14 @@
   color: #fff;
   border-radius: 7px;
   padding: 5px 8px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 800;
   text-align: center;
   transform: rotate(5deg);
   box-shadow: 0 4px 8px #78212c25;
 }
 .pdf-stamp small {
-  font-size: 6px;
+  font-size: 7px;
   font-weight: 500;
   display: block;
 }
@@ -141,7 +141,7 @@
   padding: 11px 13px;
 }
 .sheet-title {
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 700;
   color: #354052;
   margin-bottom: 7px;
@@ -155,7 +155,7 @@
 }
 .sheet-grid > * {
   padding: 3px 5px;
-  font-size: 8px;
+  font-size: 9px;
   border-right: 1px solid #dedbe4;
   border-bottom: 1px solid #dedbe4;
   color: #555c69;
@@ -180,6 +180,6 @@
   border-radius: 5px;
   background: #fff;
   padding: 4px 7px;
-  font: 8px monospace;
+  font: 9px monospace;
   color: #647469;
 }

@@ -18,10 +18,10 @@
     height: 235px;
   }
   .cover-page .page-copy h1 {
-    font-size: 37px;
+    font-size: 38px;
   }
   .page-copy h1 {
-    font-size: 37px;
+    font-size: 38px;
   }
   .timeline-visual {
     height: 116px;
@@ -39,11 +39,11 @@
     height: 174px;
   }
   .page-copy h1 {
-    font-size: 29px;
+    font-size: 30px;
     margin-top: 10px;
   }
   .page-intro {
-    font-size: 12px;
+    font-size: 13px;
   }
   .learning-list {
     gap: 6px;
@@ -79,20 +79,20 @@
     padding: 0 15px;
   }
   .page-copy h1 {
-    font-size: 26px;
+    font-size: 27px;
   }
   .page-intro {
-    font-size: 12px;
+    font-size: 13px;
   }
   .learning-list li {
-    font-size: 11px;
+    font-size: 12px;
   }
   .port-visual {
     gap: 4px;
   }
   .port small,
   .print-card small {
-    font-size: 6px;
+    font-size: 7px;
   }
 }
 @media (prefers-reduced-motion: reduce) {

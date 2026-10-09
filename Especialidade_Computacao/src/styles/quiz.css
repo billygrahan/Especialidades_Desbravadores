@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 .trophy {
-  font-size: 37px;
+  font-size: 38px;
   margin-right: 13px;
   filter: drop-shadow(0 4px 8px #05070b65);
 }
@@ -20,19 +20,19 @@
   gap: 3px;
 }
 .quiz-art > div > span {
-  font-size: 7px;
+  font-size: 8px;
   color: #d9b8f3;
   letter-spacing: 1.2px;
   font-weight: 700;
 }
 .quiz-art > div > b {
   font:
-    700 13px 'Manrope',
+    700 14px 'Manrope',
     sans-serif;
   max-width: 190px;
 }
 .quiz-art small {
-  font-size: 8px;
+  font-size: 9px;
   color: #c1bdc9;
 }
 .quiz-stars {
@@ -41,7 +41,7 @@
   top: 12px;
   color: #d7b4ef;
   letter-spacing: 5px;
-  font-size: 13px;
+  font-size: 14px;
 }
 .quiz-box {
   margin-top: 15px;
@@ -54,7 +54,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 8px;
+  font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.8px;
   color: #80609a;
@@ -65,7 +65,7 @@
 }
 .quiz-box h2 {
   font:
-    700 14px/1.35 'Manrope',
+    700 15px/1.35 'Manrope',
     sans-serif;
   color: #232b3c;
   margin: 10px 0;
@@ -82,7 +82,7 @@
   text-align: left;
   padding: 0 10px;
   color: #495161;
-  font-size: 10px;
+  font-size: 11px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -106,7 +106,7 @@
   font-weight: 800;
 }
 .quiz-feedback {
-  font-size: 9px;
+  font-size: 10px;
   color: #677080;
   margin-top: 9px;
   line-height: 1.45;
@@ -125,7 +125,7 @@
   padding: 9px 12px;
   width: 100%;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 11px;
   cursor: pointer;
 }
 .quiz-result {
@@ -133,13 +133,13 @@
   padding: 6px;
 }
 .quiz-result > span {
-  font-size: 34px;
+  font-size: 35px;
 }
 .quiz-result h2 {
   margin: 5px 0;
 }
 .quiz-result p {
-  font-size: 10px;
+  font-size: 11px;
   color: #6b7280;
   line-height: 1.5;
   margin: 0;
@@ -162,10 +162,10 @@
   gap: 2px;
 }
 .completion-note b {
-  font-size: 9px;
+  font-size: 10px;
   color: #49345c;
 }
 .completion-note small {
-  font-size: 8px;
+  font-size: 9px;
   color: #7c7883;
 }
