@@ -1,0 +1,224 @@
+.flow-visual {
+  height: 105px;
+  padding: 10px 5px;
+  background: #f8f7fa;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.flow-visual > div {
+  width: 27%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+}
+.flow-visual > div > span {
+  font-size: 23px;
+}
+.flow-visual b {
+  font-size: 10px;
+  color: #333d4e;
+}
+.flow-visual small {
+  font-size: 8px;
+  color: #858c9c;
+}
+.flow-visual > i {
+  font-style: normal;
+  color: #9567b0;
+  font-size: 16px;
+}
+.flow-visual .processor {
+  width: 73px;
+  height: 73px;
+  background: #6b21a8;
+  border-radius: 50%;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0 6px 15px #6b21a833;
+}
+.flow-visual .processor b,
+.flow-visual .processor small {
+  color: #fff;
+}
+.port-visual {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+.port,
+.print-card {
+  min-height: 81px;
+  border-radius: 11px;
+  background: #f5f4f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+  text-align: center;
+  padding: 6px 3px;
+}
+.port > span,
+.print-card > span {
+  height: 27px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #684089;
+  display: grid;
+  place-items: center;
+}
+.port .usb {
+  width: 22px;
+  background: #28283a;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.port .hdmi {
+  width: 26px;
+  background: #77509a;
+  color: white;
+  border-radius: 4px;
+  font-size: 11px;
+}
+.port .vga {
+  width: 28px;
+  background: #27334a;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 13px;
+}
+.port b,
+.print-card b {
+  font-size: 9px;
+  color: #343c4b;
+}
+.port small,
+.print-card small {
+  font-size: 7px;
+  line-height: 1.2;
+  color: #858b99;
+}
+.print-card {
+  background: #f1eaf7;
+}
+.board-visual {
+  height: 138px;
+  background: linear-gradient(130deg, #f7f6f9, #efedf4);
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.board {
+  width: 180px;
+  height: 107px;
+  background: #36765e;
+  border: 5px solid #255a47;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 8px 17px #183c2d35;
+  transform: rotate(-3deg);
+}
+.board-cpu {
+  position: absolute;
+  left: 68px;
+  top: 31px;
+  width: 43px;
+  height: 40px;
+  border: 4px solid #b5c5bd;
+  background: #333c42;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font: 700 9px monospace;
+}
+.board-slot {
+  position: absolute;
+  left: 17px;
+  height: 6px;
+  width: 39px;
+  background: #c3b075;
+  border-radius: 3px;
+}
+.slot-a {
+  top: 24px;
+}
+.slot-b {
+  top: 37px;
+}
+.board-port {
+  position: absolute;
+  right: 17px;
+  bottom: 20px;
+  width: 24px;
+  height: 30px;
+  background: #293743;
+  border: 3px solid #b9aa6c;
+  border-radius: 4px;
+}
+.board-label {
+  position: absolute;
+  background: #fff;
+  color: #474b56;
+  font-size: 8px;
+  padding: 4px 6px;
+  border-radius: 5px;
+  box-shadow: 0 3px 8px #17203320;
+}
+.label-a {
+  top: 2px;
+  left: 75px;
+}
+.label-b {
+  bottom: 5px;
+  left: -18px;
+}
+.label-c {
+  right: -21px;
+  top: 10px;
+}
+.memory-visual {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+.memory-card {
+  height: 100px;
+  border-radius: 12px;
+  background: #f7f5f9;
+  padding: 10px 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.memory-card > span {
+  font-size: 20px;
+  color: #734794;
+}
+.memory-card b {
+  font-size: 11px;
+  color: #34394a;
+}
+.memory-card small {
+  font-size: 8px;
+  line-height: 1.25;
+  color: #828998;
+  min-height: 20px;
+}
+.speed {
+  margin-top: auto;
+  height: 5px;
+  border-radius: 9px;
+  background: #e7e3ea;
+  overflow: hidden;
+}
+.speed i {
+  display: block;
+  height: 100%;
+  background: #8b57ae;
+  border-radius: 9px;
+}

@@ -1,0 +1,105 @@
+@media (min-width: 700px) {
+  #root {
+    padding: 24px;
+  }
+  .app-shell {
+    height: min(900px, calc(100dvh - 48px));
+    min-height: 630px;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+  .topbar {
+    border-radius: 18px 18px 0 0;
+  }
+  .page-content {
+    padding: 34px 34px 25px;
+  }
+  .cover-art {
+    height: 235px;
+  }
+  .cover-page .page-copy h1 {
+    font-size: 37px;
+  }
+  .page-copy h1 {
+    font-size: 37px;
+  }
+  .timeline-visual {
+    height: 116px;
+  }
+}
+@media (max-height: 740px) {
+  .page-content {
+    padding-top: 19px;
+    padding-bottom: 16px;
+  }
+  .cover-page {
+    padding-top: 17px;
+  }
+  .cover-art {
+    height: 174px;
+  }
+  .page-copy h1 {
+    font-size: 29px;
+    margin-top: 10px;
+  }
+  .page-intro {
+    font-size: 12px;
+  }
+  .learning-list {
+    gap: 6px;
+    margin-top: 13px;
+  }
+  .tip {
+    margin-top: 11px;
+    padding: 9px 11px;
+  }
+  .page-footnote {
+    padding-top: 13px;
+  }
+  .cover-art {
+    margin-top: 7px;
+  }
+  .flow-visual,
+  .timeline-visual {
+    height: 92px;
+  }
+}
+@media (max-width: 360px) {
+  #root {
+    padding: 0;
+  }
+  .topbar {
+    padding: 0 17px;
+  }
+  .page-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .book-nav {
+    padding: 0 15px;
+  }
+  .page-copy h1 {
+    font-size: 26px;
+  }
+  .page-intro {
+    font-size: 12px;
+  }
+  .learning-list li {
+    font-size: 11px;
+  }
+  .port-visual {
+    gap: 4px;
+  }
+  .port small,
+  .print-card small {
+    font-size: 6px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}
