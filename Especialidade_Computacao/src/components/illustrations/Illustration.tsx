@@ -26,22 +26,22 @@ import { TextIllustration } from './TextIllustration'
 type IllustrationComponent = () => ReactNode
 
 const illustrations: Record<IllustrationKey, IllustrationComponent> = {
-  cover: CoverIllustration,
-  timeline: TimelineIllustration,
-  layers: LayersIllustration,
-  devices: DevicesIllustration,
-  flow: FlowIllustration,
-  ports: PortsIllustration,
-  components: ComponentsIllustration,
-  memory: MemoryIllustration,
-  network: NetworkIllustration,
-  checklist: ChecklistIllustration,
-  folders: FoldersIllustration,
-  backup: BackupIllustration,
-  text: TextIllustration,
-  report: ReportIllustration,
-  spreadsheet: SpreadsheetIllustration,
-  quiz: QuizIllustration,
+  cover: CoverIllustration, //imagem inicial de um menino com um computador, representando a linha do tempo da computação
+  timeline: TimelineIllustration, //imagem da linha do tempo da computação, mostrando a evolução dos computadores ao longo do tempo
+  layers: LayersIllustration,//piramide de retangulos
+  devices: DevicesIllustration,// 6 elementos empilhados
+  flow: FlowIllustration,//linha do tempo com 3 elementos com circulo no meio
+  ports: PortsIllustration,//4 elementos lado a lado so que mais detalhado
+  components: ComponentsIllustration,//imagem da placa mae ilustrativa
+  memory: MemoryIllustration,//elementos mas com barra de carregamento/quantidade
+  network: NetworkIllustration,//representação de equipamentos e skils
+  checklist: ChecklistIllustration,// checklist com duas colunas
+  folders: FoldersIllustration,//representação de pastas e subpastas
+  backup: BackupIllustration,//representalçao de pastas e arquivos ou destinos
+  text: TextIllustration,//representação de um documento de texto ilustrativa
+  report: ReportIllustration,//representação de uma noticia/relatorio/documento com mensagem 
+  spreadsheet: SpreadsheetIllustration,//representação de uma tabela no excel
+  quiz: QuizIllustration,//retangulo com mensagems e emogi de trofel
 }
 
 type IllustrationProps = {

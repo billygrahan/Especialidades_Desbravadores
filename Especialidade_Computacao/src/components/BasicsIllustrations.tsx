@@ -4,10 +4,10 @@ export function TimelineIllustration(): ReactNode {
   return (
     <div className="timeline-visual">
       {[
-        ['◎', 'Ábaco', 'contar'],
-        ['▤', 'ENIAC', 'calcular'],
-        ['▣', 'PC', 'criar'],
-        ['▰', 'Celular', 'conectar'],
+        ['🧮', 'Ábaco', 'contar'],
+        ['🔢', 'ENIAC', 'calculadora'],
+        ['💾', 'PC', 'criar'],
+        ['📱', 'Celular', 'conectar'],
       ].map(([icon, label, sub], i) => (
         <div className="time-stop" key={label}>
           <span className="time-icon">{icon}</span>
@@ -46,11 +46,11 @@ export function DevicesIllustration(): ReactNode {
   return (
     <div className="device-grid">
       {[
-        ['▰', 'Notebook'],
-        ['▯', 'Celular'],
-        ['▣', 'Desktop'],
-        ['▱', 'Tablet'],
-        ['◉', 'Servidor'],
+        ['💻', 'Notebook'],
+        ['📱', 'Celular'],
+        ['🖥️', 'Desktop'],
+        ['📱💻', 'Tablet'],
+        ['🖥', 'Servidor'],
         ['⌚', 'Relógio'],
       ].map(([i, n]) => (
         <div className="device" key={n}>

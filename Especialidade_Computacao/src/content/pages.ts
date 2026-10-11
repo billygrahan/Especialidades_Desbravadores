@@ -10,6 +10,11 @@ export type Page = {
   intro: string
   visual: IllustrationKey
   bullets: string[]
+  visual2?: IllustrationKey
+  texto?: string
+  imagem?: string
+  video?: string 
+  bullets2?: string[]
   tip?: string
 }
 
@@ -21,8 +26,8 @@ export const pages: Page[] = [
       'Descubra como a tecnologia funciona — e aprenda a usá-la para criar, resolver problemas e ajudar sua comunidade.',
     visual: 'cover',
     bullets: [
-      'Computação 1 + Computação 2',
-      'Um guia feito para Desbravadores curiosos',
+      'Computação 1 + Computação 2 + Computação 3',
+      'Um guia feito para Desbravadores',
       'Aprenda no seu ritmo, uma página por vez',
     ],
   },
@@ -33,11 +38,13 @@ export const pages: Page[] = [
       'Computação é a ciência de organizar e transformar informações. O computador recebe dados, trabalha com eles e apresenta um resultado.',
     visual: 'timeline',
     bullets: [
-      'Entrada: a informação que você fornece',
-      'Processamento: o trabalho feito pela máquina',
-      'Saída: o resultado que você consegue usar',
+      // 'Entrada: a informação que você fornece',
+      // 'Processamento: o trabalho feito pela máquina',
+      // 'Saída: o resultado que você consegue usar',
     ],
-    tip: 'Exemplo: você digita uma conta (entrada), a calculadora resolve (processamento) e mostra a resposta (saída).',
+    texto: 'A trajetória dos computadores começa com o ábaco, criado há milhares de anos como o primeiro instrumento de cálculo usado por civilizações antigas. Séculos depois, no auge da Segunda Guerra Mundial, surge o ENIAC, considerado o primeiro computador eletrônico de grande escala, que utilizava válvulas e ocupava salas inteiras, mas já era capaz de realizar milhares de operações por segundo. Com o avanço da tecnologia, na década de 1960 aparecem os computadores com circuitos integrados, que tornaram as máquinas menores, mais rápidas e acessíveis, permitindo sua difusão em empresas e universidades. Finalmente, com a invenção dos microprocessadores e a popularização da internet, chegamos aos computadores modernos, presentes em smartphones e PCs, que se tornaram portáteis, multifuncionais e indispensáveis na vida cotidiana, conectando bilhões de pessoas ao redor do mundo. A Seguir segue um video mais detalhado sobre o assunto:',
+    video: 'https://www.youtube.com/embed/ilwewVTh1R4',
+    // tip: 'Exemplo: você digita uma conta (entrada), a calculadora resolve (processamento) e mostra a resposta (saída).',
   },
   {
     eyebrow: '02 · CONCEITOS ESSENCIAIS',
@@ -47,9 +54,12 @@ export const pages: Page[] = [
     visual: 'layers',
     bullets: [
       'Hardware: tudo que podemos tocar, como teclado e tela',
-      'Sistema operacional: organiza as tarefas e os recursos',
       'Software: aplicativos e programas usados no dia a dia',
-      'Driver: ajuda o sistema a conversar com cada peça',
+      'Sistema operacional: software que organiza as tarefas e os recursos na inicialização do computador',
+      'Driver: ajuda o sistema a conversar com um equipamento específico',
+      'Memoria ROM: guarda instruções importantes, para iniciar o computador',
+      'Memoria RAM: guarda temporariamente os dados que o computador está usando',
+      'Disco rígido(armazenamento): guarda arquivos e programas para sempre, mesmo desligado',
     ],
     tip: 'Analogia: hardware é o corpo; o sistema e os aplicativos são as instruções que orientam o que ele faz.',
   },
@@ -60,10 +70,11 @@ export const pages: Page[] = [
       'Computadores têm tamanhos e formatos diferentes. A escolha depende da tarefa e de onde você vai usar.',
     visual: 'devices',
     bullets: [
-      'Desktop: ótimo para uma mesa fixa',
-      'Notebook: portátil, com tela e teclado integrados',
-      'Tablet e smartphone: leves e controlados pelo toque',
-      'Servidor: atende outros computadores pela rede',
+      'Desktop: Computador de mesa fixo, com peças separadas',
+      'Notebook: Computador portátil, com tela e teclado integrados',
+      'Netbook: Computador portátil, menor e mais leve que o notebook, mas com menos recursos',
+      'Tablet e smartphone: Dispositivos portáteis com tela sensível ao toque, que podem funcionar como computadores',
+      'Servidor: Computadores de altissimo desempenho, que fornecem serviços e recursos para outros computadores em uma rede',
     ],
     tip: 'Console, relógio inteligente e até alguns eletrodomésticos também têm computadores por dentro.',
   },
@@ -71,27 +82,26 @@ export const pages: Page[] = [
     eyebrow: '04 · COMO A INFORMAÇÃO CIRCULA',
     title: 'Entrada, processamento e saída',
     intro:
-      'Quase toda tarefa segue este caminho: os dados entram, o processador trabalha e a resposta sai.',
+      'Quase toda tarefa segue este caminho: os dados entram, o processador trabalha e a resposta sai por meio de periferico de entrada e saida.',
     visual: 'flow',
     bullets: [
       'Entrada: teclado, mouse, câmera e microfone',
-      'Processamento: CPU interpreta e executa instruções',
       'Saída: monitor, caixa de som e impressora',
       'Comunicação: modem e roteador conectam dispositivos',
+      'Processamento: CPU(Unidade Central de Processamento) interpreta e executa instruções',
     ],
     tip: 'Um dispositivo pode ter mais de uma função: uma tela sensível ao toque mostra imagens e também recebe toques.',
   },
   {
     eyebrow: '05 · CONECTANDO PEÇAS',
-    title: 'Portas e impressão',
+    title: 'Portas e Componentes Internos',
     intro:
-      'As portas permitem ligar acessórios. Antes de imprimir, vale revisar as opções para economizar papel e tinta.',
+      'As portas permitem ligar acessórios. Cada tipo de porta tem um formato e uma função específicos, e os componentes internos trabalham juntos para que o computador funcione.',
     visual: 'ports',
     bullets: [
       'USB: conecta periféricos e transfere dados',
       'HDMI: leva imagem e áudio digital',
       'VGA: conexão de vídeo analógica, comum em equipamentos antigos',
-      'Impressão: confira cópias, papel, orientação e páginas',
     ],
     tip: 'Pré-visualize o documento antes de imprimir. Para compartilhar, exportar como PDF costuma preservar o layout.',
   },
@@ -116,8 +126,8 @@ export const pages: Page[] = [
       'Memória ajuda o computador a trabalhar agora. Armazenamento guarda seus arquivos para depois.',
     visual: 'memory',
     bullets: [
-      'RAM: rápida e temporária; esvazia ao desligar',
-      'ROM/firmware: guarda instruções importantes para iniciar',
+      'RAM: rápida e temporária; esvazia ao desligar; como se fosse uma banca de trabalho',
+      'ROM: guarda instruções importantes para iniciar',
       'HD: armazena em discos magnéticos e tem partes móveis',
       'SSD: usa chips, costuma ser mais rápido e resistente a impactos',
     ],

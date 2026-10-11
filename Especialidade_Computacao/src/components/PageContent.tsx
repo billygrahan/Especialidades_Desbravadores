@@ -1,6 +1,8 @@
 import type { Page } from '../content/pages'
 import { Illustration } from './illustrations/Illustration'
 import { KnowledgeQuiz } from './KnowledgeQuiz'
+import { PageImage } from './PageImage'
+import { PageVideo } from './PageVideo'
 import { Shield } from './Shield'
 
 type PageContentProps = {
@@ -41,6 +43,27 @@ export function PageContent({
           ))}
         </ul>
 
+        {page.bullets2 && (
+          <ul className="learning-list">
+            {page.bullets2.map((item) => (
+              <li key={item}>
+                <span aria-hidden="true">✓</span>
+                {item}
+              </li>
+            ))}
+          </ul>
+        )}
+
+        {page.visual2 && <Illustration type={page.visual2} />}
+
+
+        <p className="page-intro">{page.texto}</p>
+
+        {page.imagem && <PageImage src={page.imagem} alt={page.title} />}
+        
+        {page.video && <PageVideo src={page.video} title={page.title} />}
+
+
         {page.tip && (
           <p className="tip">
             <span aria-hidden="true">✦</span>
@@ -50,7 +73,7 @@ export function PageContent({
 
         {isCover && (
           <button className="start-button" type="button" onClick={onStart}>
-            Iniciar jornada digital <span aria-hidden="true">→</span>
+            Iniciar Especialidade <span aria-hidden="true">→</span>
           </button>
         )}
 
@@ -79,7 +102,7 @@ export function PageContent({
 
         <div className="page-footnote">
           <Shield small />
-          <span>APRENDER · EXPLORAR · COMPARTILHAR</span>
+          <span>Mensageiros da Promessa</span>
         </div>
       </div>
     </section>
