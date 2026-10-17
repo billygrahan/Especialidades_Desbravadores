@@ -102,7 +102,7 @@ function QuizResult({ score, onRestart }: QuizResultProps) {
   return (
     <div className="quiz-result">
       <span aria-hidden="true">{perfectScore ? '🏅' : '✨'}</span>
-      <h2>{perfectScore ? 'Excelente, explorador!' : 'Boa jornada, explorador!'}</h2>
+      <h2>{perfectScore ? 'Excelente, Desbravador!' : 'Boa jornada, Desbravador!'}</h2>
       <p>
         Você acertou <b>{score} de {quiz.length}</b>. Continue praticando e
         compartilhando o que aprendeu.

@@ -12,7 +12,7 @@ export function SiteHeader({ isMenuOpen, onHome, onToggleMenu }: SiteHeaderProps
       <button className="brand" type="button" onClick={onHome}>
         <Shield small />
         <span>
-          <b>TRILHA DIGITAL</b>
+          <b>CLUBE DE DESBRAVADORES</b>
           <small>ESPECIALIDADE DE COMPUTAÇÃO</small>
         </span>
       </button>

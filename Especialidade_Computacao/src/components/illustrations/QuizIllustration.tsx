@@ -7,7 +7,7 @@ export function QuizIllustration(): ReactNode {
     <div>
       <span>JORNADA CONCLUÍDA</span>
       <b>Você está pronto para o desafio?</b>
-      <small>3 perguntas rápidas · sem nota</small>
+      <small>Perguntas rápidas · sem nota</small>
     </div>
     <span className="quiz-stars">✦ ✧ ✦</span>
   </div>

@@ -270,11 +270,7 @@ export const pages: Page[] = [
       'Para escolher um computador, pense primeiro no que você quer fazer. Depois compare as peças e confira a compatibilidade.',
     visual: 'quiz',
     bullets: [
-      'RAM ajuda a manter mais tarefas abertas',
-      'SSD deixa iniciar e abrir arquivos mais rápido',
-      'Processador e vídeo devem atender às tarefas desejadas',
-      'Confira conexões, tela, garantia e possibilidade de atualização',
-    ],
-    tip: 'Pronto para o desafio? Responda às perguntas e veja o que você já aprendeu.',
+      ],
+    // tip: 'Pronto para o desafio? Responda às perguntas e veja o que você já aprendeu.',
   },
 ];
