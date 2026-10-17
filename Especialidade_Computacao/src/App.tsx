@@ -45,7 +45,6 @@ function App() {
         isCover={currentPage === 0}
         isFinalPage={currentPage === pages.length - 1}
         onStart={() => navigateTo(1)}
-        onMission={() => navigateTo(10)}
       />
 
       <BookNavigation

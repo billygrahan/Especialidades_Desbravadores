@@ -10,7 +10,6 @@ type PageContentProps = {
   isCover: boolean
   isFinalPage: boolean
   onStart: () => void
-  onMission: () => void
 }
 
 export function PageContent({
@@ -18,7 +17,6 @@ export function PageContent({
   isCover,
   isFinalPage,
   onStart,
-  onMission,
 }: PageContentProps) {
   return (
     <section className="page-scroll">
