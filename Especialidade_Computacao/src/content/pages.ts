@@ -1,3 +1,8 @@
+import entradasImage from '../assets/entradas.png'
+import memoriasImage from '../assets/memorias.png'
+import pecasImage from '../assets/pecas.png'
+import redesImage from '../assets/redes.png'
+
 export type IllustrationKey =
   | 'cover' | 'timeline' | 'layers' | 'devices'
   | 'flow' | 'ports' | 'components' | 'memory'
@@ -104,7 +109,7 @@ export const pages: Page[] = [
       'HDMI: leva imagem e áudio digital',
       'DisplayPort: transmite imagem e áudio digital, com melhor qualidade',
     ],
-    imagem: 'src/assets/entradas.png'
+    imagem: entradasImage
     // tip: 'Pré-visualize o documento antes de imprimir. Para compartilhar, exportar como PDF costuma preservar o layout.',
   },
   {
@@ -119,7 +124,7 @@ export const pages: Page[] = [
       'Placa de vídeo(GPU): prepara imagens e gráficos',
       'Fonte: entrega energia adequada ao computador',
     ],
-    imagem: 'src/assets/pecas.png',
+    imagem: pecasImage,
     tip: 'a placa de som e a placa de rede podem ja vir integradas integradas à placa-mãe(mais modernas) ou serem placas separadas.',
   },
   {
@@ -134,7 +139,7 @@ export const pages: Page[] = [
       'HD: armazena em discos magnéticos e tem partes móveis',
       'SSD: usa chips, costuma ser mais rápido e resistente a impactos',
     ],
-    imagem: 'src/assets/memorias.png',
+    imagem: memoriasImage,
     tip: 'RAM não substitui o HD/SSD: uma mantém tarefas abertas; o outro guarda fotos, trabalhos e aplicativos.',
   },
   {
@@ -164,7 +169,7 @@ export const pages: Page[] = [
       'Switch: conecta vários dispositivos em uma rede local com fio',
       'Modem: conecta a rede local à internet',
     ],
-    imagem: 'src/assets/redes.png',
+    imagem: redesImage,
     bullets2: [
       'LAN: rede local de casa, escola ou escritório',
       'WLAN(Wi-Fi): conexão sem fio por ondas de rádio(roteador)',
