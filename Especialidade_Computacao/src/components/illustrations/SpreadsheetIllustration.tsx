@@ -3,17 +3,17 @@ import type { ReactNode } from 'react'
 export function SpreadsheetIllustration(): ReactNode {
   return (
     <div className="sheet-visual">
-      <div className="sheet-title">Orçamento do acampamento</div>
+      <div className="sheet-title">Análize Técnica</div>
       <div className="sheet-grid">
-        <b>Item</b>
-        <b>Qtd.</b>
-        <b>Valor</b>
+        <b>Parâmetro</b>
+        <b>Análize</b>
+        <b></b>
         <span>Alimentação</span>
         <span>12</span>
-        <span>R$ 240</span>
+        <span></span>
         <span>Materiais</span>
         <span>4</span>
-        <span>R$ 80</span>
+        <span></span>
         <strong>Total</strong>
         <strong />
         <strong className="sum">R$ 320</strong>

@@ -43,9 +43,9 @@ export function PortsIllustration(): ReactNode {
         <small>Vídeo analógico</small>
       </div>
       <div className="print-card">
-        <span>▤</span>
-        <b>Pré-visualize</b>
-        <small>Confira antes de imprimir</small>
+        <span>⚡▰⚡</span>
+        <b>Displayport</b>
+        <small>Imagem + áudio - Melhorados</small>
       </div>
     </div>
   )

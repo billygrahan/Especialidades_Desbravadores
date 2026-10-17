@@ -32,7 +32,7 @@ export function PageContent({
           <p className="page-intro">{page.intro}</p>
         </div>
 
-        <Illustration type={page.visual} />
+        {page.visual && <Illustration type={page.visual} />}
 
         <ul className="learning-list">
           {page.bullets.map((item) => (
@@ -42,6 +42,8 @@ export function PageContent({
             </li>
           ))}
         </ul>
+
+        {page.imagem && <PageImage src={page.imagem} alt={page.title} />}
 
         {page.bullets2 && (
           <ul className="learning-list">
@@ -54,12 +56,10 @@ export function PageContent({
           </ul>
         )}
 
-        {page.visual2 && <Illustration type={page.visual2} />}
-
-
         <p className="page-intro">{page.texto}</p>
 
-        {page.imagem && <PageImage src={page.imagem} alt={page.title} />}
+        {page.visual2 && <Illustration type={page.visual2} />}
+
         
         {page.video && <PageVideo src={page.video} title={page.title} />}
 

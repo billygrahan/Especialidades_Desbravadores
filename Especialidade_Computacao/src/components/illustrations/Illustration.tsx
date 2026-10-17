@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import type { IllustrationKey } from '../../content/pages'
+
 import {
   DevicesIllustration,
   LayersIllustration,
@@ -22,7 +23,7 @@ import { QuizIllustration } from './QuizIllustration'
 import { ReportIllustration } from './ReportIllustration'
 import { SpreadsheetIllustration } from './SpreadsheetIllustration'
 import { TextIllustration } from './TextIllustration'
-
+import { PlanilhaIlustrator } from './PlanilhaIlustrator'
 type IllustrationComponent = () => ReactNode
 
 const illustrations: Record<IllustrationKey, IllustrationComponent> = {
@@ -41,6 +42,7 @@ const illustrations: Record<IllustrationKey, IllustrationComponent> = {
   text: TextIllustration,//representação de um documento de texto ilustrativa
   report: ReportIllustration,//representação de uma noticia/relatorio/documento com mensagem 
   spreadsheet: SpreadsheetIllustration,//representação de uma tabela no excel
+  Planilhadecusto: PlanilhaIlustrator,//representação de uma tabela no excel
   quiz: QuizIllustration,//retangulo com mensagems e emogi de trofel
 }
 

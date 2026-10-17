@@ -2,19 +2,19 @@ export type IllustrationKey =
   | 'cover' | 'timeline' | 'layers' | 'devices'
   | 'flow' | 'ports' | 'components' | 'memory'
   | 'network' | 'checklist' | 'folders' | 'backup'
-  | 'text' | 'report' | 'spreadsheet' | 'quiz'
+  | 'text' | 'report' | 'spreadsheet' | 'Planilhadecusto' | 'quiz'
 
 export type Page = {
   eyebrow: string
   title: string
   intro: string
-  visual: IllustrationKey
+  visual?: IllustrationKey
   bullets: string[]
   visual2?: IllustrationKey
   texto?: string
+  bullets2?: string[]
   imagem?: string
   video?: string 
-  bullets2?: string[]
   tip?: string
 }
 
@@ -100,10 +100,12 @@ export const pages: Page[] = [
     visual: 'ports',
     bullets: [
       'USB: conecta periféricos e transfere dados',
-      'HDMI: leva imagem e áudio digital',
       'VGA: conexão de vídeo analógica, comum em equipamentos antigos',
+      'HDMI: leva imagem e áudio digital',
+      'DisplayPort: transmite imagem e áudio digital, com melhor qualidade',
     ],
-    tip: 'Pré-visualize o documento antes de imprimir. Para compartilhar, exportar como PDF costuma preservar o layout.',
+    imagem: 'src/assets/entradas.png'
+    // tip: 'Pré-visualize o documento antes de imprimir. Para compartilhar, exportar como PDF costuma preservar o layout.',
   },
   {
     eyebrow: '06 · POR DENTRO DO GABINETE',
@@ -112,12 +114,13 @@ export const pages: Page[] = [
       'Os componentes internos trabalham em equipe. A placa-mãe conecta as peças e permite que troquem informações.',
     visual: 'components',
     bullets: [
-      'CPU: executa instruções e cálculos',
+      'CPU(Unidade Central de Processamento): executa instruções e cálculos',
       'Placa-mãe: conecta os componentes',
-      'Placa de vídeo: prepara imagens e gráficos',
+      'Placa de vídeo(GPU): prepara imagens e gráficos',
       'Fonte: entrega energia adequada ao computador',
     ],
-    tip: 'A placa de som cuida do áudio. Muitos computadores já trazem vídeo e som integrados à placa-mãe.',
+    imagem: 'src/assets/pecas.png',
+    tip: 'a placa de som e a placa de rede podem ja vir integradas integradas à placa-mãe(mais modernas) ou serem placas separadas.',
   },
   {
     eyebrow: '07 · GUARDAR E ACESSAR',
@@ -127,25 +130,49 @@ export const pages: Page[] = [
     visual: 'memory',
     bullets: [
       'RAM: rápida e temporária; esvazia ao desligar; como se fosse uma banca de trabalho',
-      'ROM: guarda instruções importantes para iniciar',
+      
       'HD: armazena em discos magnéticos e tem partes móveis',
       'SSD: usa chips, costuma ser mais rápido e resistente a impactos',
     ],
-    tip: 'RAM não substitui o SSD: uma mantém tarefas abertas; o outro guarda fotos, trabalhos e aplicativos.',
+    imagem: 'src/assets/memorias.png',
+    tip: 'RAM não substitui o HD/SSD: uma mantém tarefas abertas; o outro guarda fotos, trabalhos e aplicativos.',
+  },
+  {
+    eyebrow: '07 · ESCOLHA E COMPATIBILIDADE',
+    title: 'Critérios para escolher peças',
+    intro:
+      'Compatibilidade de equipamentos e versões é a capacidade que diferentes componentes de hardware ou versões de software possuem de operar conjuntamente de forma correta e sem erros de conflito.',
+    //visual: 'memory',
+    bullets: [
+      'Compatibilidade de hardware: verifique se a placa-mãe suporta o processador, a memória RAM e a placa de vídeo que você deseja instalar.',
+      'Compatibilidade de software: verifique se o sistema operacional e os aplicativos que você deseja usar são compatíveis com o hardware do seu computador.',
+      'Atualizações de drivers: mantenha os drivers atualizados para garantir que o hardware funcione corretamente com o software.',
+      'Padrões de conectividade: verifique se os dispositivos que você deseja conectar ao computador são compatíveis com as portas, conexões e interfaces disponíveis.',
+      ],
+    visual2: 'Planilhadecusto',
+    texto: 'Esses são os principais criterios para escolher peças e equipamentos de hardware e software para o seu computador:',
+    tip: 'Lembre-se de sempre verificar a compatibilidade antes de fazer qualquer compra ou instalação, para garantir que tudo funcione corretamente e sem problemas.'
   },
   {
     eyebrow: '08 · JUNTOS EM REDE',
-    title: 'Redes e proteção elétrica',
+    title: 'Redes e internet',
     intro:
-      'Uma rede permite que dispositivos troquem dados e compartilhem acesso à internet ou a uma impressora.',
-    visual: 'network',
+      'Uma rede permite que dispositivos troquem dados e compartilhem acesso à internet, como o acesso a uma impressora, através de cabos e equipamentos:',
+    //visual: 'network',
     bullets: [
-      'LAN: rede local de casa, escola ou escritório',
-      'Wi-Fi: conexão sem fio por ondas de rádio',
-      'Filtro de linha: ajuda contra surtos e organiza tomadas',
-      'Nobreak: mantém energia por um tempo durante uma queda',
+      'Roteador: distribui a conexão de internet para vários dispositivos(Wi-Fi e cabo)',
+      'Switch: conecta vários dispositivos em uma rede local com fio',
+      'Modem: conecta a rede local à internet',
     ],
-    tip: 'Estabilizador não substitui proteção contra todos os problemas elétricos. Use equipamentos adequados e siga a orientação de um adulto.',
+    imagem: 'src/assets/redes.png',
+    bullets2: [
+      'LAN: rede local de casa, escola ou escritório',
+      'WLAN(Wi-Fi): conexão sem fio por ondas de rádio(roteador)',
+      'MAN - WAN : redes maiores, como a internet, que conecta cidades e países através de fibra otica, antenas e satélites',
+      // 'Filtro de linha: ajuda contra surtos e organiza tomadas',
+      // 'Nobreak: mantém energia por um tempo durante uma queda',
+    ],
+    //tip: 'Estabilizador não substitui proteção contra todos os problemas elétricos. Use equipamentos adequados e siga a orientação de um adulto.',
   },
   {
     eyebrow: '09 · CUIDAR PARA DURAR',

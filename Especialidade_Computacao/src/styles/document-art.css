@@ -153,6 +153,9 @@
   border-top: 1px solid #dedbe4;
   border-left: 1px solid #dedbe4;
 }
+.sheet-grid--two-columns {
+  grid-template-columns: 1.7fr 0.6fr;
+}
 .sheet-grid > * {
   padding: 3px 5px;
   font-size: 9px;
