@@ -32,7 +32,7 @@ export const pages: Page[] = [
     ],
   },
   {
-    eyebrow: '01 · PRIMEIROS PASSOS',
+    eyebrow: 'PRIMEIROS PASSOS',
     title: 'O que é computação?',
     intro:
       'Computação é a ciência de organizar e transformar informações. O computador recebe dados, trabalha com eles e apresenta um resultado.',
@@ -47,7 +47,7 @@ export const pages: Page[] = [
     // tip: 'Exemplo: você digita uma conta (entrada), a calculadora resolve (processamento) e mostra a resposta (saída).',
   },
   {
-    eyebrow: '02 · CONCEITOS ESSENCIAIS',
+    eyebrow: 'CONCEITOS ESSENCIAIS',
     title: 'O físico e o lógico',
     intro:
       'Um computador precisa de peças para existir e de instruções para funcionar. Essas duas partes trabalham juntas.',
@@ -64,7 +64,7 @@ export const pages: Page[] = [
     tip: 'Analogia: hardware é o corpo; o sistema e os aplicativos são as instruções que orientam o que ele faz.',
   },
   {
-    eyebrow: '03 · MUITAS FORMAS',
+    eyebrow: 'MUITAS FORMAS',
     title: 'A família dos computadores',
     intro:
       'Computadores têm tamanhos e formatos diferentes. A escolha depende da tarefa e de onde você vai usar.',
@@ -79,7 +79,7 @@ export const pages: Page[] = [
     tip: 'Console, relógio inteligente e até alguns eletrodomésticos também têm computadores por dentro.',
   },
   {
-    eyebrow: '04 · COMO A INFORMAÇÃO CIRCULA',
+    eyebrow: 'COMO A INFORMAÇÃO CIRCULA',
     title: 'Entrada, processamento e saída',
     intro:
       'Quase toda tarefa segue este caminho: os dados entram, o processador trabalha e a resposta sai por meio de periferico de entrada e saida.',
@@ -93,7 +93,7 @@ export const pages: Page[] = [
     tip: 'Um dispositivo pode ter mais de uma função: uma tela sensível ao toque mostra imagens e também recebe toques.',
   },
   {
-    eyebrow: '05 · CONECTANDO PEÇAS',
+    eyebrow: 'CONECTANDO PEÇAS',
     title: 'Portas e Componentes Internos',
     intro:
       'As portas permitem ligar acessórios. Cada tipo de porta tem um formato e uma função específicos, e os componentes internos trabalham juntos para que o computador funcione.',
@@ -108,7 +108,7 @@ export const pages: Page[] = [
     // tip: 'Pré-visualize o documento antes de imprimir. Para compartilhar, exportar como PDF costuma preservar o layout.',
   },
   {
-    eyebrow: '06 · POR DENTRO DO GABINETE',
+    eyebrow: 'POR DENTRO DO GABINETE',
     title: 'As peças principais',
     intro:
       'Os componentes internos trabalham em equipe. A placa-mãe conecta as peças e permite que troquem informações.',
@@ -123,7 +123,7 @@ export const pages: Page[] = [
     tip: 'a placa de som e a placa de rede podem ja vir integradas integradas à placa-mãe(mais modernas) ou serem placas separadas.',
   },
   {
-    eyebrow: '07 · GUARDAR E ACESSAR',
+    eyebrow: 'GUARDAR E ACESSAR',
     title: 'Memória e armazenamento',
     intro:
       'Memória ajuda o computador a trabalhar agora. Armazenamento guarda seus arquivos para depois.',
@@ -138,7 +138,7 @@ export const pages: Page[] = [
     tip: 'RAM não substitui o HD/SSD: uma mantém tarefas abertas; o outro guarda fotos, trabalhos e aplicativos.',
   },
   {
-    eyebrow: '07 · ESCOLHA E COMPATIBILIDADE',
+    eyebrow: 'ESCOLHA E COMPATIBILIDADE',
     title: 'Critérios para escolher peças',
     intro:
       'Compatibilidade de equipamentos e versões é a capacidade que diferentes componentes de hardware ou versões de software possuem de operar conjuntamente de forma correta e sem erros de conflito.',
@@ -154,7 +154,7 @@ export const pages: Page[] = [
     tip: 'Lembre-se de sempre verificar a compatibilidade antes de fazer qualquer compra ou instalação, para garantir que tudo funcione corretamente e sem problemas.'
   },
   {
-    eyebrow: '08 · JUNTOS EM REDE',
+    eyebrow: 'JUNTOS EM REDE',
     title: 'Redes e internet',
     intro:
       'Uma rede permite que dispositivos troquem dados e compartilhem acesso à internet, como o acesso a uma impressora, através de cabos e equipamentos:',
@@ -175,7 +175,7 @@ export const pages: Page[] = [
     //tip: 'Estabilizador não substitui proteção contra todos os problemas elétricos. Use equipamentos adequados e siga a orientação de um adulto.',
   },
   {
-    eyebrow: '09 · CUIDAR PARA DURAR',
+    eyebrow: 'CUIDAR PARA DURAR',
     title: 'Manutenção e segurança',
     intro:
       'Hábitos simples ajudam o computador a funcionar bem e protegem seus arquivos.',
@@ -188,78 +188,78 @@ export const pages: Page[] = [
     ],
     tip: 'Se o computador travar, espere um pouco e peça orientação antes de desligá-lo à força.',
   },
+  // {
+  //   eyebrow: '10 · ENCONTRE TUDO',
+  //   title: 'Arquivos e pastas',
+  //   intro:
+  //     'Pastas organizadas tornam mais fácil encontrar trabalhos, fotos e materiais do clube.',
+  //   visual: 'folders',
+  //   bullets: [
+  //     'Crie pastas com nomes curtos e claros',
+  //     'Copiar cria outra versão; mover troca o arquivo de lugar',
+  //     'Ordene por nome, data ou tamanho',
+  //     'Revise a Lixeira antes de esvaziá-la',
+  //   ],
+  //   tip: 'Uma estrutura útil: Clube → Especialidades → Computação → Meu trabalho.',
+  // },
+  // {
+  //   eyebrow: '11 · PROTEGER O QUE IMPORTA',
+  //   title: 'Compactação e backup',
+  //   intro:
+  //     'Compactar facilita enviar vários arquivos juntos. Backup protege uma cópia caso algo aconteça com o original.',
+  //   visual: 'backup',
+  //   bullets: [
+  //     'ZIP reúne arquivos e pode reduzir o tamanho',
+  //     'Mantenha uma cópia em outro local ou dispositivo',
+  //     'Nuvem é prática, mas depende de internet e conta segura',
+  //     'Faça cópias importantes regularmente',
+  //   ],
+  //   tip: 'Uma boa regra: mantenha mais de uma cópia e confira se o backup realmente abre.',
+  // },
+  // {
+  //   eyebrow: '12 · COMUNICAR COM CLAREZA',
+  //   title: 'Edição de texto · básico',
+  //   intro:
+  //     'Um editor de texto ajuda a preparar relatórios, convites e trabalhos com leitura confortável.',
+  //   visual: 'text',
+  //   bullets: [
+  //     'Defina tamanho, margens e orientação da página',
+  //     'Use títulos, parágrafos e listas para organizar ideias',
+  //     'Negrito destaca; itálico dá ênfase; sublinhado use com moderação',
+  //     'Alinhe o texto e revise ortografia antes de compartilhar',
+  //   ],
+  //   tip: 'Evite usar muitas fontes e cores. A consistência ajuda o leitor a encontrar as informações.',
+  // },
+  // {
+  //   eyebrow: '13 · DOCUMENTOS COMPLETOS',
+  //   title: 'Tabelas, imagens e PDF',
+  //   intro:
+  //     'Recursos avançados ajudam a apresentar informação com capricho e facilitar o compartilhamento.',
+  //   visual: 'report',
+  //   bullets: [
+  //     'Use tabelas para comparar dados em linhas e colunas',
+  //     'Ajuste imagens para não esconder o texto',
+  //     'Cabeçalho, rodapé e número de página orientam o leitor',
+  //     'Exporte para PDF para preservar a aparência do documento',
+  //   ],
+  //   tip: 'Antes de entregar, confira nome, data, páginas e se as imagens aparecem corretamente.',
+  // },
+  // {
+  //   eyebrow: '14 · DADOS QUE AJUDAM',
+  //   title: 'Planilhas e fórmulas',
+  //   intro:
+  //     'Planilhas organizam números e atualizam resultados automaticamente — ótimas para planejar uma atividade.',
+  //   visual: 'spreadsheet',
+  //   bullets: [
+  //     'Células são os espaços formados por linhas e colunas',
+  //     'Use uma coluna para item, outra para quantidade e outra para custo',
+  //     '=SOMA(A1:A10) adiciona os valores do intervalo',
+  //     '=MÉDIA(B1:B10) calcula a média dos valores',
+  //   ],
+  //   tip: 'Faça uma planilha simples de orçamento do acampamento: alimentação, transporte e materiais.',
+  // },
   {
-    eyebrow: '10 · ENCONTRE TUDO',
-    title: 'Arquivos e pastas',
-    intro:
-      'Pastas organizadas tornam mais fácil encontrar trabalhos, fotos e materiais do clube.',
-    visual: 'folders',
-    bullets: [
-      'Crie pastas com nomes curtos e claros',
-      'Copiar cria outra versão; mover troca o arquivo de lugar',
-      'Ordene por nome, data ou tamanho',
-      'Revise a Lixeira antes de esvaziá-la',
-    ],
-    tip: 'Uma estrutura útil: Clube → Especialidades → Computação → Meu trabalho.',
-  },
-  {
-    eyebrow: '11 · PROTEGER O QUE IMPORTA',
-    title: 'Compactação e backup',
-    intro:
-      'Compactar facilita enviar vários arquivos juntos. Backup protege uma cópia caso algo aconteça com o original.',
-    visual: 'backup',
-    bullets: [
-      'ZIP reúne arquivos e pode reduzir o tamanho',
-      'Mantenha uma cópia em outro local ou dispositivo',
-      'Nuvem é prática, mas depende de internet e conta segura',
-      'Faça cópias importantes regularmente',
-    ],
-    tip: 'Uma boa regra: mantenha mais de uma cópia e confira se o backup realmente abre.',
-  },
-  {
-    eyebrow: '12 · COMUNICAR COM CLAREZA',
-    title: 'Edição de texto · básico',
-    intro:
-      'Um editor de texto ajuda a preparar relatórios, convites e trabalhos com leitura confortável.',
-    visual: 'text',
-    bullets: [
-      'Defina tamanho, margens e orientação da página',
-      'Use títulos, parágrafos e listas para organizar ideias',
-      'Negrito destaca; itálico dá ênfase; sublinhado use com moderação',
-      'Alinhe o texto e revise ortografia antes de compartilhar',
-    ],
-    tip: 'Evite usar muitas fontes e cores. A consistência ajuda o leitor a encontrar as informações.',
-  },
-  {
-    eyebrow: '13 · DOCUMENTOS COMPLETOS',
-    title: 'Tabelas, imagens e PDF',
-    intro:
-      'Recursos avançados ajudam a apresentar informação com capricho e facilitar o compartilhamento.',
-    visual: 'report',
-    bullets: [
-      'Use tabelas para comparar dados em linhas e colunas',
-      'Ajuste imagens para não esconder o texto',
-      'Cabeçalho, rodapé e número de página orientam o leitor',
-      'Exporte para PDF para preservar a aparência do documento',
-    ],
-    tip: 'Antes de entregar, confira nome, data, páginas e se as imagens aparecem corretamente.',
-  },
-  {
-    eyebrow: '14 · DADOS QUE AJUDAM',
-    title: 'Planilhas e fórmulas',
-    intro:
-      'Planilhas organizam números e atualizam resultados automaticamente — ótimas para planejar uma atividade.',
-    visual: 'spreadsheet',
-    bullets: [
-      'Células são os espaços formados por linhas e colunas',
-      'Use uma coluna para item, outra para quantidade e outra para custo',
-      '=SOMA(A1:A10) adiciona os valores do intervalo',
-      '=MÉDIA(B1:B10) calcula a média dos valores',
-    ],
-    tip: 'Faça uma planilha simples de orçamento do acampamento: alimentação, transporte e materiais.',
-  },
-  {
-    eyebrow: '15 · REVISÃO E CONQUISTA',
+    eyebrow: 'REVISÃO E CONQUISTA',
     title: 'Escolher, comparar, aprender',
     intro:
       'Para escolher um computador, pense primeiro no que você quer fazer. Depois compare as peças e confira a compatibilidade.',
