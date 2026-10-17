@@ -90,7 +90,7 @@ export function PageContent({
           </>
         )}
 
-        {page.visual === 'checklist' && (
+        {/* {page.visual === 'checklist' && (
           <div className="mini-reminder">
             <b>Missão de hoje</b>
             <span>Organize um arquivo do seu próximo encontro do clube.</span>
@@ -98,7 +98,7 @@ export function PageContent({
               Ver missão de organização →
             </button>
           </div>
-        )}
+        )} */}
 
         <div className="page-footnote">
           <Shield small />
